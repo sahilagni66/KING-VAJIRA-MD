@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '94766943622';
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '919517641203';
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://vajira:vajira@cluster0.hzwqrqq.mongodb.net/?retryWrites=true&w=majority" ;
 global.port= false // Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000  ; 
 global.audio = '' ; 
@@ -21,10 +21,11 @@ global.scan  = process.env.QR_URL || 'https://replit.com/@VajiraRathnayak/KING-V
 global.website = 'https://github.com/vajirabot1/KING-VAJIRA-MD' ; //wa.me/+923000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
-  botname: process.env.BOT_NAME || 'ᴠᴀᴊɪʀᴀ-ᴍᴅ',
+  sessionName: process.env.SESSION_ID || "VAJIRA;;;VarsityOrderly
+	",      //Put Your Session Id Here
+  botname: process.env.BOT_NAME || 'Felix',
   botbgm: process.env.BOT_BGM || 'false',
-  ownername:  process.env.OWNER_NAME || `It'x vajira`,
+  ownername:  process.env.OWNER_NAME || `Felix`,
   author:  process.env.PACK_AUTHER || '',
   autovoice: process.env.AUTO_VOICE || 'true',
   errorChat : process.env.ERROR_CHAT|| '', // put 'chat' here to send error in chat ,where it accures
@@ -54,7 +55,7 @@ module.exports = {
   VERSION: process.env.VERSION || 'v.1.2.2',
   LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'VAJIRA',
   menu : process.env.MENU || '', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Vajira-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'privert',
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'public',
   KOYEB_API : process.env.KOYEB_API || ''
 };
 
